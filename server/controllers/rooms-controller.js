@@ -13,6 +13,7 @@ class roomsController {
     const room = await roomsService.create({
         topic,
         roomType,
+        type,
         ownerId: req.user._id,
     });
 

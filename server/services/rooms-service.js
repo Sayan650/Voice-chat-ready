@@ -7,6 +7,7 @@ class roomService {
     const room = await roomModel.create({
       topic,
       roomType,
+      type,
       ownerId,
       speakers: [ownerId],
     });

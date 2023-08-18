@@ -13,6 +13,7 @@ class RoomDto {
         this.ownerId = room.ownerId;
         this.speakers = room.speakers;
         this.createdAt = room.createdAt;
+        this.type = room.type;
     }
 }
 module.exports = RoomDto;
