@@ -3,7 +3,7 @@ const roomsService = require("../services/rooms-service");
 
 class roomsController {
   async create(req, res) {
-    const { topic, roomType } = req.body;
+    const { topic, roomType,type } = req.body;
 
 
     if (!topic || !roomType) {
